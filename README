@@ -1,0 +1,11 @@
+The target of the project is to simplify the process of saving POJOs to xml and restoring them.
+
+To reach this the classes and their members are annotated, to mark the structure of the resulting xml.
+
+Instead of the aproach of JAXB, where the classes are generated from an xml-schema, here the xml
+follows the structure of the java classes. For an example data structure see 
+the package org.decsi.jaxml.testclasses int the Test Packages.
+
+Currently the library can generate SAX events from the object structure, and reconstruct the
+object structure from a SAX reader.
+
