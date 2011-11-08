@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contact-book owner="1">
+  <name>
+      Business Contacts
+  </name>
+  <contacts>
+    <contact id="1">
+      <person id="2"
+              age="25"
+              gender="man"
+              name="geza" />
+      <email>
+          geza@bela.org
+      </email>
+    </contact>
+    <contact id="2">
+      <person id="3"
+              age="55"
+              gender="woman"
+              name="jucus" />
+      <email>
+          jucus@bela.org
+      </email>
+    </contact>
+  </contacts>
+</contact-book>
